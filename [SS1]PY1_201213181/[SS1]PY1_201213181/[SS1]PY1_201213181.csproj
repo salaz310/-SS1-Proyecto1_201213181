@@ -118,9 +118,9 @@
     <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\fondouno.jpg" />
     <Content Include="img\about.jpg" />
     <Content Include="img\contact-bg.jpg" />
-    <Content Include="img\intro-bg.jpg" />
     <Content Include="img\portfolio\01-large.jpg" />
     <Content Include="img\portfolio\01-small.jpg" />
     <Content Include="img\portfolio\02-large.jpg" />

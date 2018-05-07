@@ -2,10 +2,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marcus Hansen - UX Designer & Front End Developer</title>
+<title>[SS1]PY1_201213181</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -36,7 +36,7 @@
     <![endif]-->
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+     <form id="form1" runat="server">
 <!-- Header -->
 <header id="header">
   <div class="intro text-center">
@@ -44,9 +44,9 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-            <h1>Marcus Hansen</h1>
-            <p>UX Designer & Front End Developer</p>
-            <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+            <h1>Luis Ruperto Salazar Orozco</h1>
+            
+            <a href="#about" class="btn btn-default btn-lg page-scroll">Ver perfil</a> </div>
         </div>
       </div>
     </div>
@@ -65,12 +65,13 @@
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#page-top">Home</a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+          <li> <a class="page-scroll" href="#page-top">Inicio</a> </li>
+          <li> <a class="page-scroll" href="#about">Perfil</a> </li>
+          <li> <a class="page-scroll" href="#skills">Habilidades</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Experiencia</a> </li>
+          <li> <a class="page-scroll" href="#testimonials">Estudios</a> </li>
+            <li> <a class="page-scroll" href="#testimonials">Logros</a> </li>
+          <li> <a class="page-scroll" href="#contact">Recomendaciones</a> </li>
         </ul>
       </div>
     </div>
@@ -351,5 +352,6 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+         </form>
 </body>
 </html>
