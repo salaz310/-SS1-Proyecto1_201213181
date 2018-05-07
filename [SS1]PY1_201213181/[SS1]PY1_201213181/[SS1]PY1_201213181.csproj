@@ -177,7 +177,6 @@
     <Content Include="img\prettyPhoto\light_square\sprite.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\contact_me.js" />
     <Content Include="js\easypiechart.js" />
     <Content Include="js\jqBootstrapValidation.js" />
     <Content Include="js\jquery.1.11.1.js" />
@@ -187,7 +186,6 @@
     <Content Include="js\main.js" />
     <Content Include="js\SmoothScroll.js" />
     <Content Include="js\waypoints.js" />
-    <Content Include="mail\contact_me.php" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -200,6 +198,9 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mail\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

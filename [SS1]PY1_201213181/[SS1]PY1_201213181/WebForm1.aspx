@@ -81,16 +81,21 @@
 <div id="about">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>About Me</h2>
+      <h2>Datos Personales</h2>
       <hr>
     </div>
     <div class="row">
       <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> </div>
+          <h3>Nombre</h3>
+          <p>Luis Ruperto Salazar Orozco</p>
+          <h3>Telefono</h3>
+          <p>(502) 45430904</p>
+          <h3>Correo</h3>
+          <p>salaz103@gmail.com</p>
+          <h3>Registro Universitario</h3>
+          <p>201213181</p>
       </div>
     </div>
   </div>
@@ -99,23 +104,47 @@
 <div id="skills" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>Skills</h2>
+      <h2>Habilidades</h2>
       <hr>
     </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
-        <h4>HTML5</h4>
-      </div>
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
-        <h4>CSS3</h4>
-      </div>
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>jQuery</h4>
-      </div>
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>WordPress</h4>
+
+      <div class="d-flex justify-content-center">
+      <div class="col-md-4 col-sm-6 skill l-5   d-flex justify-content-center"> 
+        <h4>Idiomas</h4>
+          <ul class="list-group">
+  <li class="list-group-item">Ingles</li>
+  <li class="list-group-item">Chino Mandarín</li>
+    </ul>
       </div>
     </div>
+
+      <div class="d-flex justify-content-center">
+      <div class="col-lg-4 col-sm-6 skill l-5   d-flex justify-content-center"> 
+        <h4>Lenguajes de Programacion</h4>
+          <ul class="list-group">
+  <li class="list-group-item">C,C++</li>
+  <li class="list-group-item">Java</li>
+  <li class="list-group-item">C#</li>
+  <li class="list-group-item">Python</li>
+  <li class="list-group-item">PHP</li>
+  <li class="list-group-item">SQL</li>
+    </ul>
+      </div>
+    </div>
+
+      <div class="d-flex justify-content-center">
+      <div class="col-lg-4 col-sm-6 skill l-5 d-flex justify-content-center "> 
+        <h4>Personales</h4>
+          <ul class="list-group">
+  <li class="list-group-item">Pensamiento estratégico</li>
+  <li class="list-group-item">Capacidad en la toma de decisiones</li>
+  <li class="list-group-item">Trabajo en equipo</li>
+  <li class="list-group-item">Comunicación</li>
+    </ul>
+      </div>
+    </div>
+
+
   </div>
 </div>
 <!-- Portfolio Section -->
@@ -294,40 +323,38 @@
   <div class="overlay">
     <div class="container">
       <div class="section-title center">
-        <h2>Get In Touch</h2>
+        <h2>Recomiendame</h2>
         <hr>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <asp:Label runat="server">Nombre: </asp:Label>
+                  <asp:TextBox runat="server" Width="350" ID="nombre" ForeColor="Black"></asp:TextBox>
+                </div>
+              </div>
+          <hr>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <asp:Label runat="server">Comentario:</asp:Label>
+                  <asp:TextBox runat="server" TextMode="MultiLine" Width="450px" ID="mensaje" ForeColor="Black" Height="101px"></asp:TextBox>
+                </div>
+              </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <asp:Button runat="server" ID="boton" Text="ENVIAR" OnClick="EnviarRecomendacion" ForeColor="Black" OnDataBinding="EnviarRecomendacion" >
+                  </asp:Button>
+                </div>
+              </div>
+
       </div>
       <div class="col-md-8 col-md-offset-2">
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-          <div id="success"></div>
-          <button type="submit" class="btn btn-default">Send Message</button>
-        </form>
+        
         <div class="social">
           <ul>
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://github.com/salaz310"><i class="fa fa-github"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
