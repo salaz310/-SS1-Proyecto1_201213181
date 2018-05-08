@@ -275,6 +275,21 @@
     </div>
   </div>
 </div>
+
+         <hr>
+<div id="recomendaciones">
+    <div class="container text-center">
+        <h2>Recomendaciones</h2>
+
+        <div class="resume-content mr-auto">
+ <asp:TextBox runat="server" TextMode="MultiLine" Width="450px" ID="comentarios" BackColor="#663399" ForeColor="White" Height="101px" Enabled="false"></asp:TextBox>
+        </div>
+
+    </div>
+
+
+</div>
+
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
