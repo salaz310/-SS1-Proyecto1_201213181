@@ -85,13 +85,13 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
-      <div class="col-xs-12 col-md-6">
+      <div class="col-m-2 col-md-4"> <img src="img/perfil.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-m-5 col-md-6">
         <div class="about-text">
           <h3>Nombre</h3>
           <p>Luis Ruperto Salazar Orozco</p>
           <h3>Telefono</h3>
-          <p>(502) 45430904</p>
+          <p>+502 45430904</p>
           <h3>Correo</h3>
           <p>salaz103@gmail.com</p>
           <h3>Registro Universitario</h3>
