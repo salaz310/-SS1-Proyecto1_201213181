@@ -44,7 +44,9 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-            <h1>Luis Ruperto Salazar Orozco</h1>
+            <h1>Luis Ruperto</h1>
+              <hr>
+              <h1>Salazar Orozco</h1>
             
             <a href="#about" class="btn btn-default btn-lg page-scroll">Ver perfil</a> </div>
         </div>
@@ -68,9 +70,9 @@
           <li> <a class="page-scroll" href="#page-top">Inicio</a> </li>
           <li> <a class="page-scroll" href="#about">Perfil</a> </li>
           <li> <a class="page-scroll" href="#skills">Habilidades</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Experiencia</a> </li>
-          <li> <a class="page-scroll" href="#testimonials">Estudios</a> </li>
-            <li> <a class="page-scroll" href="#testimonials">Logros</a> </li>
+          <li> <a class="page-scroll" href="#experiencia">Experiencia</a> </li>
+          <li> <a class="page-scroll" href="#estudios">Estudios</a> </li>
+            <li> <a class="page-scroll" href="#logros">Logros</a> </li>
           <li> <a class="page-scroll" href="#contact">Recomendaciones</a> </li>
         </ul>
       </div>
@@ -100,6 +102,7 @@
     </div>
   </div>
 </div>
+    </div>
 <!-- Skills Section -->
 <div id="skills" class="text-center">
   <div class="container">
@@ -153,139 +156,45 @@
   </div>
 </div>
 <!-- Portfolio Section -->
-<div id="portfolio">
+<div id="experiencia">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>Portfolio</h2>
+      <h2>Experiencia</h2>
       <hr>
     </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small> </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small> </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small> </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h3>Freelance</h3>
+      <ul class="list-group">
+  <li class="list-group-item  list-group-item-success">Tutorias personalizadas de Matematicas y Computacion</li>
+  <li class="list-group-item  list-group-item-success">Centro de Especialidades Educativas carretera a el Salvador km. 18</li>
+</ul>
+       <h3>Voluntariados</h3>
+      <ul class="list-group">
+  <li class="list-group-item  list-group-item-info">Voluntariado en Escuela de Ciencias y Sistemas</li>
+  <li class="list-group-item  list-group-item-info">Visita a la casa "Cocina del Amor" Z. 14</li>
+</ul>
+
+      <h3>Proyectos Personales</h3>
+      <ul class="list-group">
+  <li class="list-group-item  list-group-item-warning">Pagina web <a href="https://tutosgt.com"> TUTOS</a> para ayudar a los apirantes universitarios de primer ingreso</li>
+  
+</ul>
   </div>
 </div>
 <!-- Achievements Section -->
-<div id="achievements" class="text-center">
+<div id="estudios" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>Some Stats</h2>
+      <h2>Estudios</h2>
       <hr>
     </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
-        <div class="achievement-box"> <span class="count">310</span>
-          <h4>Happy Clients</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
-        <div class="achievement-box"> <span class="count">4700</span>
-          <h4>Hours of Work</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
-        <div class="achievement-box"> <span class="count">30</span>
-          <h4>Awards Won</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
-        <div class="achievement-box"> <span class="count">8</span>
-          <h4>Years of Experience</h4>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </div>
 <!-- Testimonials Section -->
-<div id="testimonials" class="text-center">
+<div id="logros" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>Testimonials</h2>
+      <h2>Logros</h2>
       <hr>
     </div>
     <div class="row">
@@ -369,7 +278,6 @@
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
-      <p>Copyright &copy; 2016 Marcus Hansen. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
     </div>
   </div>
 </div>
