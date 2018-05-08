@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Luis Salazar\Desktop\PY1_SS1\-SS1-Proyecto1_201213181\[SS1]PY1_201213181\[SS1]PY1_201213181\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Luis Salazar\Desktop\PY1_SS1\-SS1-Proyecto1_201213181\[SS1]PY1_201213181\[SS1]PY1_201213181\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Luis Salazar\Desktop\PY1_SS1\-SS1-Proyecto1_201213181\[SS1]PY1_201213181\[SS1]PY1_201213181\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

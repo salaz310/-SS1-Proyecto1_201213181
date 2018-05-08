@@ -143,7 +143,12 @@
     </ul>
       </div>
     </div>
-
+ 
+      <iframe width="560" 
+                height="400" 
+                src="https://youtube.com/embed/HssXtd5hYuc" 
+                style="border:1;"
+                allowfullscreen="true"></iframe>
 
   </div>
 </div>
@@ -352,9 +357,9 @@
         
         <div class="social">
           <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/luis.salazarorozco"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://github.com/salaz310"><i class="fa fa-github"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/luisl_310/"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>

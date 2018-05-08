@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ss1final" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Luis\ Salazar\\Desktop\\PY1_SS1\\-SS1-Proyecto1_201213181\\\[SS1]PY1_201213181\\\[SS1]PY1_201213181\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Luis\ Salazar\\Desktop\\PY1_SS1\\-SS1-Proyecto1_201213181\\\[SS1]PY1_201213181\\\[SS1]PY1_201213181\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

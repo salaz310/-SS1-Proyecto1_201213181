@@ -102,6 +102,8 @@
     <Content Include="fonts\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ss1final - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ss1final - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
