@@ -169,24 +169,66 @@
 </ul>
        <h3>Voluntariados</h3>
       <ul class="list-group">
-  <li class="list-group-item  list-group-item-info">Voluntariado en Escuela de Ciencias y Sistemas</li>
-  <li class="list-group-item  list-group-item-info">Visita a la casa "Cocina del Amor" Z. 14</li>
+  <li class="list-group-item  list-group-item-success">Voluntariado en Escuela de Ciencias y Sistemas</li>
+  <li class="list-group-item  list-group-item-success">Visita a la casa "Cocina del Amor" Z. 14</li>
 </ul>
 
       <h3>Proyectos Personales</h3>
       <ul class="list-group">
-  <li class="list-group-item  list-group-item-warning">Pagina web <a href="https://tutosgt.com"> TUTOS</a> para ayudar a los apirantes universitarios de primer ingreso</li>
+  <li class="list-group-item  list-group-item-success">Pagina web <a href="https://tutosgt.com"> TUTOS</a> para ayudar a los apirantes universitarios de primer ingreso</li>
   
 </ul>
   </div>
 </div>
 <!-- Achievements Section -->
-<div id="estudios" class="text-center">
+<div id="estudios" >
   <div class="container">
-    <div class="section-title center">
+    <div class="section-title text-center center">
       <h2>Estudios</h2>
       <hr>
     </div>
+
+  <h3>Universitarios</h3>
+      <ul class="list-group">
+          <li class="list-group-item list-group-item-info">
+              <p class="font-weight-bold">Ingenieria en Ciencias y Sistemas, Universidad de San Carlos de Guatemala, 7mo Semestre</p>
+
+          </li>
+      </ul>
+      
+
+  <h3>Otros</h3>
+       <ul class="list-group">
+          <li class="list-group-item list-group-item-info">
+      <p class="font-weight-bold">Idioma ingles, diplomado TOEFL, Centro de Instrucción Audio Visual (CIAV)</p>
+
+          </li>
+         <li class="list-group-item list-group-item-info" >
+          <p class="font-weight-bold">Idioma mandarín, CALUSAC, nivel 5</p>
+
+           </li>
+      </ul>
+
+      <h3>Cursos Libres</h3>
+       <ul class="list-group">
+          <li class="list-group-item list-group-item-info">
+      <p class="font-weight-bold">Introduccion a SQL, codecademy</p>
+
+          </li>
+         <li class="list-group-item list-group-item-info" >
+          <p class="font-weight-bold">SQL for data science, datacamp</p>
+
+           </li>
+           <li class="list-group-item list-group-item-info" >
+          <p class="font-weight-bold">Laravel 5.5, styde.net</p>
+
+           </li>
+           <li class="list-group-item list-group-item-info" >
+          <p class="font-weight-bold">Curso basico ReactJS, Faztweb.com</p>
+
+           </li>
+      </ul>
+      
     
   </div>
 </div>
@@ -197,39 +239,7 @@
       <h2>Logros</h2>
       <hr>
     </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="row testimonials">
-          <div class="col-sm-4">
-            <blockquote><i class="fa fa-quote-left"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitduis sed dapibus leo nec ornare.</p>
-              <div class="clients-name">
-                <p><strong>John Doe</strong><br>
-                  <em>CEO, Company Inc.</em></p>
-              </div>
-            </blockquote>
-          </div>
-          <div class="col-sm-4">
-            <blockquote><i class="fa fa-quote-left"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitduis sed dapibus leo nec ornare.</p>
-              <div class="clients-name">
-                <p><strong>Jane Doe</strong><br>
-                  <em>CEO, Company Inc.</em></p>
-              </div>
-            </blockquote>
-          </div>
-          <div class="col-sm-4">
-            <blockquote><i class="fa fa-quote-left"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitduis sed dapibus leo nec ornare.</p>
-              <div class="clients-name">
-                <p><strong>Chris Smith</strong><br>
-                  <em>CEO, Company Inc.</em></p>
-              </div>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </div>
 <!-- Contact Section -->
@@ -282,7 +292,7 @@
         <h2>Recomendaciones</h2>
 
         <div class="resume-content mr-auto">
- <asp:TextBox runat="server" TextMode="MultiLine" Width="450px" ID="comentarios" BackColor="#663399" ForeColor="White" Height="101px" Enabled="false"></asp:TextBox>
+ <asp:TextBox runat="server" TextMode="MultiLine" Width="450px"  ID="comentarios" BackColor="Black" ForeColor="White" Height="450px" Enabled="false"></asp:TextBox>
         </div>
 
     </div>

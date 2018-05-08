@@ -52,7 +52,7 @@ namespace _SS1_PY1_201213181
             {
                 while (lector.Read())
                 {
-                    comentarios.Text = comentarios.Text + String.Format("Nombre: {0}\n{1}\n------------------------------------------------------------------------", lector[0], lector[1]) + "\n\n";
+                    comentarios.Text = comentarios.Text + String.Format("Nombre: {0}\n\n{1}\n-----------------------------------------------------------------------------------------------", lector[0], lector[1]) + "\n\n";
                 }
             }
             finally
