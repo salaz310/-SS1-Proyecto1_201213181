@@ -239,6 +239,17 @@
       <h2>Logros</h2>
       <hr>
     </div>
+
+      <ul class="list-group">
+          <li class="list-group-item list-group-item-warning">
+      <p class="font-weight-bold">Comprometido con la calidad: Logre ayudar a varios clientes con la metodología de mis tutorías personales. </p>
+
+          </li>
+         <li class="list-group-item list-group-item-warning" >
+          <p class="font-weight-bold">Resolver eficientemente problemas de personas que estudian la misma carrera en otras universidades, lo que me hizo ganar elogios por mis conocimientos.</p>
+
+           </li>
+      </ul>
     
   </div>
 </div>
