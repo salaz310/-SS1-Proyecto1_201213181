@@ -36,7 +36,7 @@ namespace _SS1_PY1_201213181
             nombre.Text = "";
             mensaje.Text = "";
             con.Close();
-            ScriptManager.RegisterStartupScript(this, GetType(), "alertIns", "alert('Comentario guardado');", true);
+            ScriptManager.RegisterStartupScript(this, GetType(), "alertIns", "alert('Recomendacion añadida');", true);
             CargarRecomendaciones();
         }
 
